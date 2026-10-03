@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fdf2f2;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(220, 20, 60, 0.1);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.container.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #c0392b;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.logo-text span {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #c0392b;
+}
+
+.nav-buttons .btn-secondary {
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #c0392b;
+    color: #c0392b;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.nav-buttons .btn-secondary:hover {
+    background-color: #c0392b;
+    color: #ffffff;
+}
+
+.pagina-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+    padding: 40px 20px;
+}
+
+.tarjeta.formulario-tarjeta {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(192, 57, 43, 0.15);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    border-top: 5px solid #c0392b;
+}
+
+.logo-container {
+    margin-bottom: 15px;
+}
+
+.tarjeta.formulario-tarjeta h1 {
+    font-size: 1.8rem;
+    color: #962d22;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 0.95rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.linea-dorada {
+    width: 60px;
+    height: 4px;
+    background-color: #e74c3c;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+/parte de compras/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fdf2f2;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(220, 20, 60, 0.1);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.container.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #c0392b;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.logo-text span {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #c0392b;
+}
+
+.nav-buttons .btn-secondary {
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #c0392b;
+    color: #c0392b;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.nav-buttons .btn-secondary:hover {
+    background-color: #c0392b;
+    color: #ffffff;
+}
+
+.pagina-formulario, .pagina-catalogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+    padding: 40px 20px;
+}
+
+.tarjeta.formulario-tarjeta, .tarjeta-catalogo {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(192, 57, 43, 0.15);
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+    border-top: 5px solid #c0392b;
+}
+
+.tarjeta-catalogo h1 {
+    font-size: 1.8rem;
+    color: #962d22;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 0.95rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.linea-dorada {
+    width: 60px;
+    height: 4px;
+    background-color: #e74c3c;
+    margin: 0 auto 25px auto;
+    border-radius: 2px;
+}
+
+/* Estilos de la lista de productos hacia abajo */
+.lista-productos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.item-producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid #f0d5d5;
+}
+
+.info-producto {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.nombre-prod {
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 1rem;
+}
+
+.precio-prod {
+    color: #c0392b;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.btn-pedir {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-pedir:hover {
+    background-color: #962d22;
+}
